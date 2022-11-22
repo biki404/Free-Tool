@@ -1,0 +1,17 @@
+$𝐅𝐑𝐄𝐄 𝐓𝐎𝐎𝐋𝐒 🤸 𓅉
+$ cd
+$ rm -rf Free-Tool
+$ pkg update
+$ pkg upgrade
+$ pkg install python2
+$ pkg install pip2
+$ pip2 install requests
+$ pip2 install mechanize
+$ pkg install git
+ git clone https://github.com/biki404/Free-Tool
+ cd Free-Tool
+ python3 Biki.py
+
+Enjoy☺️
+
+🥀𝐌𝐫. 𝐁𝐈𝐊𝐈🥀
