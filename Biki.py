@@ -1,15 +1,6 @@
-import os, platform
+import os, sys
 try:
-    import requests
-except:
-    os.system('pip install requests')
-import requests
-bit = platform.architecture()[0]
-if bit == '64bit':
-    from cream import Biki
-    Biki()
-elif bit == '32bit':
-    from cream import Biki
-    Biki()
-
+    __import__("cream").biki__()
+except Exception as e:
+    exit(str(e))
 
