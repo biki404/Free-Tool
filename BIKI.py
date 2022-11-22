@@ -7,8 +7,8 @@ except:
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from libbiki import login
-    main()
+    from libbiki import menu
+    menu()
 elif bit == '32bit':
-    from libbiki import login
-    login()
+    from libbiki import menu
+    menu()
