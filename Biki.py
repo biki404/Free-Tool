@@ -1,6 +1,15 @@
-import os, sys
+import os, platform
 try:
-    __import__("cream").bnsbuy()
-except Exception as e:
-    exit(str(e))
+    import requests
+except:
+    os.system('pip install requests')
+import requests
+bit = platform.architecture()[0]
+if bit == '64bit':
+    from cream import Biki
+    Biki()
+elif bit == '32bit':
+    from cream import Biki
+    Biki()
+
 
